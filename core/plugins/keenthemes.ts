@@ -8,7 +8,7 @@ import {
 } from "@/assets/ts/components";
 import { ThemeModeComponent } from "@/assets/ts/layout";
 import type { App } from "vue";
-import KTIcon from "@/core/helpers/kt-icon/KTIcon.vue";
+import KTIcon from "root_path/core/helpers/kt-icon/KTIcon.vue";
 
 /**
  * @description Initialize KeenThemes custom components

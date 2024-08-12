@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-import icons from "@/core/helpers/kt-icon/icons.json";
+import icons from "root_path/core/helpers/kt-icon/icons.json";
 import { useConfigStore } from "@/stores/config";
 
 const store = useConfigStore();
