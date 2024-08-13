@@ -1,9 +1,14 @@
 <script>
+    import { useRoute, useRouter } from 'vue-router'
+
+    const router = useRouter()
+    const route = useRoute()
+
+    
+
     export default {
         name: "Sidebar"
     }
-
-
 </script>
 
 
@@ -52,7 +57,7 @@
                                 <!--begin:Menu item-->
                                 <div class="menu-item">
                                     <!--begin:Menu link-->
-                                    <a class="menu-link" href="../../demo1/dist/apps/calendar.html">
+                                    <a @click="this.$router.push({ name: 'basics' })" class="menu-link">
                                         <span class="menu-icon">
                                             <i class="ki-duotone ki-calendar-8 fs-2">
                                                 <span class="path1"></span>
